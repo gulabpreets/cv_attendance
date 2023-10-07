@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 def send_mail(mailsList, body, subject ):
     # Sender's email credentials
-    sender_email = 'your mail from which you want to send alerts'
-    sender_password = ''
+    sender_email = 'elertsms@gmail.com'
+    sender_password = 'rwcrkxcjnlkirvhx'
 
     # List of recipient email addresses
     recipient_emails = mailsList

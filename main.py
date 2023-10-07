@@ -15,7 +15,7 @@ from mail import send_mail
 # ******************************************************
 # List of mail
 # ******************************************************
-mailList=["list of mails to whome you want to send mail"]
+mailList=["gulabpreets01@gmail.com,yashikasharma1775@gmail.com"]
 
 subject = "Attendance of your ward"
 
@@ -180,7 +180,7 @@ while True:
                     # cv.waitKey(1)
                 
                 if id not in student_attendance_marked:
-                    # send_mail(mailList,"Your Ward " + studentData[1] + "was present today in class.",subject)
+                    send_mail(mailList,"Your Ward " + studentData[1] + "was present today in class.",subject)
                     student_attendance_marked[id] = True  # Mark the student as attendance recorded
                     # here screen should show for 3 sec that attendance marked
                     # then after 3sec screen should show the details of the student
